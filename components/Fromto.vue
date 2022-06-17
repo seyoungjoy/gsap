@@ -3,7 +3,6 @@
   <section class="container">
     <div class="row">
       <div class="col-12">
-
         <div class="card"
              v-for="(card, i) in cards"
              :key="card.id"
