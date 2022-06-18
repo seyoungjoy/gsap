@@ -33,5 +33,8 @@ export default {
   modules: [],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    // You can extend webpack config here
+    transpile: [ 'gsap'],
+  },
 }

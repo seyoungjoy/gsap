@@ -5,7 +5,7 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import ScrollTrigger from '../components/ScrollTrigger.vue'
+import ScrollTrigger from '../components/ScrollTrigger-pin.vue'
 
 export default Vue.extend({
   name: 'IndexPage',

@@ -1,21 +1,31 @@
 <!-- Please remove this file from your project -->
 <template>
   <section class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="box-wrap">
-          <div class="box a">a</div>
-        </div>
-        <div class="box-wrap">
-          <div ref="box" class="box boxC">b</div>
-        </div>
-
-
-        <div class="box-wrap">
-          <div class="box">c</div>
-        </div>
-      </div>
+  <div class="description panel blue">
+    <div><h1>Layered pinning</h1>
+      <p>Use pinning to layer panels on top of each other as you scroll.</p>
+      <div class="scroll-down">Scroll down<div class="arrow"></div></div>
     </div>
+  </div>
+
+
+  <section class="panel red">
+    ONE
+  </section>
+  <section class="panel orange">
+    TWO
+  </section>
+  <section class="panel purple">
+    THREE
+  </section>
+  <section class="panel green">
+    FOUR
+  </section>
+<header>
+   <a href="https://greensock.com/scrolltrigger">
+     <img class="greensock-icon" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/scroll-trigger-logo-light.svg" width="200" height="64" />
+  </a>
+</header>
   </section>
 </template>
 
